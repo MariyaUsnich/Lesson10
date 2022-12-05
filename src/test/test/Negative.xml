@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="My test suite">
+    <test name="testing2">
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.AnimalTest" />
+            <class name="test.BirdTest" />
+            <class name="test.FishTest" />
+        </classes>
+    </test>
+</suite>
