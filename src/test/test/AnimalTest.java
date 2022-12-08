@@ -1,5 +1,8 @@
 package test;
-import Zoo.*;
+import Zoo.Animal;
+import Zoo.Elephant;
+import Zoo.Panda;
+import Zoo.Tiger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
